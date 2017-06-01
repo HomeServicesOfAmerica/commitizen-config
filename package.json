@@ -1,14 +1,23 @@
 {
   "name": "@concierge-auctions/commitizen-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Company commitizen configuration",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "git-cz"
   },
   "author": "Nathan Schwartz <nathan.schwartz95@gmail.com>",
   "license": "GPL-3.0",
   "dependencies": {
     "cz-bespoke": "^0.1.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./index.js"
+    }
+  },
+  "devDependencies": {
+    "commitizen": "^2.9.6"
   }
 }
