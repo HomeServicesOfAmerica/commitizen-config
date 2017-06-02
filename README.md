@@ -1,5 +1,7 @@
 ### Commitizen-Config
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ConciergeAuctions/commitizen-config.svg?token=59cc7792b88ced92ab0369de025ee0ba392614c3f20eb1d72609695dcecdc526&ts=1496367396888)](https://greenkeeper.io/)
+
 This is our company commitizen configuration. We uses cz-bespoke to generate a commitizen adapter.
 
 To add commitizen to a repo, do the following:
