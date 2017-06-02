@@ -6,6 +6,9 @@ module.exports = intializeCommitizen.tweak({
   // By default, cz-bespoke will validate that the first line does not exceed subjectLineLength.
   subjectLineLength: 50,
   bodyLineLength: 70,
+  useEditor: {
+    body: true,
+  },
   validation: {
     scope: notEmpty,
     body: notEmpty,
